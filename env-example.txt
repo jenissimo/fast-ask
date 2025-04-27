@@ -1,0 +1,24 @@
+# API Settings
+OPENAI_API_KEY=your_openrouter_api_key_here
+OPENAI_API_URL=https://openrouter.ai/api/v1
+OPENAI_MODEL=google/gemini-2.5-flash
+
+# App settings
+SYSTEM_PROMPT=Ты полезный ассистент. Отвечай кратко и по делу.
+TEMPERATURE=0.7
+MAX_TOKENS=1000
+THEME=dark
+LOG_LEVEL=INFO
+
+# Debug settings
+DEBUG_HOTKEYS=0  # Установите 1 чтобы отключить системные хоткеи в режиме отладки
+
+# Screenshots
+SCREENSHOTS_DIR=data/screenshots
+
+# Database
+DB_PATH=data/history.db
+
+# Hotkeys
+APP_HOTKEY=ctrl+shift+space
+SCREENSHOT_HOTKEY=ctrl+shift+s 
